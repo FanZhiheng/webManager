@@ -36,7 +36,7 @@ export default defineComponent({
       console.log(params);
 
       router.push({
-        name: "home",
+        name: "bigScreen",
       });
       // login(params)
       //   .then((res) => {

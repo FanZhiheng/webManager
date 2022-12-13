@@ -1,45 +1,23 @@
 [
   {
-    "title": "题库管理",
-    "name": "questionManage",
-    "routerName": "questionManage",
-    "icon": "icon-exam-questionbank",
-    "children": [
-      {
-        "title": "分组管理",
-        "name": "questionGroup",
-        "routerName": "questionGroup",
-        "icon": "msg-home-checked",
-        "routerPath": "/questionManage/questionGroup"
-      }
-    ]
+    "title": "首页看板",
+    "name": "bigScreen",
+    "routerName": "bigScreen",
+    "icon": "msg-home-checked",
+    "routerPath": "/bigScreen"
   },
   {
-    "title": "通讯录管理",
-    "name": "mailManage",
-    "routerName": "mailManage",
+    "title": "我的待办",
+    "name": "myPending",
+    "routerName": "myPending",
     "icon": "icon-exam-tel",
-    "children": [
-      {
-        "title": "通讯录分组",
-        "name": "mailGroup",
-        "routerName": "mailGroup",
-        "icon": "msg-home-checked",
-        "routerPath": "/mailManage/mailGroup"
-      }
-    ]
+    "routerPath": "/myPending"
   },
   {
-    "title": "考试",
-    "name": "examManage",
-    "icon": "icon-exam-exam",
-    "children": [
-      {
-        "title": "考试管理",
-        "name": "exam",
-        "routerName": "exam",
-        "routerPath": "/examManage"
-      }
-    ]
+    "title": "知识库",
+    "name": "knowledge",
+    "routerName": "knowledge",
+    "icon": "icon-exam-tel",
+    "routerPath": "/knowledge"
   }
 ]

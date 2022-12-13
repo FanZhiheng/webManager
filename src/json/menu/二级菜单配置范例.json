@@ -1,0 +1,37 @@
+[
+  {
+    "title": "首页看板",
+    "name": "bigScreen",
+    "routerName": "bigScreen",
+    "icon": "msg-home-checked",
+    "routerPath": "/bigScreen"
+  },
+  {
+    "title": "我的待办",
+    "name": "mailManage",
+    "routerName": "mailManage",
+    "icon": "icon-exam-tel",
+    "children": [
+      {
+        "title": "通讯录分组",
+        "name": "mailGroup",
+        "routerName": "mailGroup",
+        "icon": "msg-home-checked",
+        "routerPath": "/mailManage/mailGroup"
+      }
+    ]
+  },
+  {
+    "title": "知识库",
+    "name": "examManage",
+    "icon": "icon-exam-exam",
+    "children": [
+      {
+        "title": "考试管理",
+        "name": "exam",
+        "routerName": "exam",
+        "routerPath": "/examManage"
+      }
+    ]
+  }
+]

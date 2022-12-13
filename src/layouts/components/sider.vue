@@ -11,7 +11,7 @@
       v-model:openKeys="openKeys"
       class="menu-list"
     >
-      <template v-for="(menu, index) in MenuData" :key="index">
+      <template v-for="(menu, index) in MenuData" :key="menu.name">
         <!-- 没有二级菜单 -->
         <template v-if="!menu.children">
           <a-menu-item :key="menu.name" @click="toggleMenu(menu)">
@@ -37,7 +37,7 @@
               ></i
               >{{ menu.title }}</template
             >
-            <template v-for="(menu_, index1) in menu.children" :key="index1">
+            <template v-for="(menu_, index1) in menu.children" :key="menu_.name">
               <a-menu-item
                 @click="toggleMenu(menu_)"
                 v-if="!menu_.children"
@@ -80,8 +80,8 @@ export default defineComponent({
     const Router = useRouter();
     const Route = useRoute();
     const data = reactive({
-      selectedKeys: ["questionGroup"],
-      openKeys: ["questionGroup"],
+      selectedKeys: ["bigScreen"],
+      openKeys: ["bigScreen"],
       MenuData: [],
     });
 
@@ -98,7 +98,7 @@ export default defineComponent({
     };
 
     const init = () => {
-      getMenu(examGroupQuery, 0, "question", "question", "/questionManage");
+      getMenu();
       // getMenu(addressGroupQuery, 1, "mail", "mail", "/mailManage/mail");
       // getMenu(examQuery, 2, "paperManage", "paperManage", null);
     };

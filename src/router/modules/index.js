@@ -2,21 +2,21 @@ import BasicLayout from '@/layouts/basicLayout'
 
 let ROUTES = [{
   path: "/",
-  redirect: "/questionManage/questionGroup",
+  redirect: "/login",
 },
 {
-  path: '/home',
+  path: '/bigScreen',
   component: BasicLayout,
   hidden: true,
   children: [
     {
-      path: '/home',
-      name: 'home',
+      path: '/bigScreen',
+      name: 'bigScreen',
       meta: {
-        title: '主页',
-        menu_1: 'home'
+        title: '首页看板',
+        menu_1: 'bigScreen'
       },
-      component: () => import('@/views/common/home')
+      component: () => import('@/views/common/bigScreen')
     }
   ]
 }, {

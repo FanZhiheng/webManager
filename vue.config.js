@@ -3,7 +3,7 @@
 // process.env.NODE_ENV === 'development' 开发环境
 const BASE_URL = process.env.NODE_ENV === 'production'
   ? './'
-  : '/examSystem';
+  : '/webManager';
 
 const path = require('path')
 
@@ -13,7 +13,7 @@ const resolve = dir => {
 
 module.exports = {
   lintOnSave: false,
-  outputDir: "examSystem",
+  outputDir: "webManager",
   publicPath: BASE_URL,
   assetsDir: 'static',
   productionSourceMap: false,
