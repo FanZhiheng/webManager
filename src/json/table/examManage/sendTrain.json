@@ -1,0 +1,26 @@
+{
+    "taskName": {
+      "title": "下发任务名",
+      "dataIndex": "taskName",
+      "align": "center",
+      "width": 200
+    },
+  
+    "sendCount": {
+      "title": "下发人数",
+      "dataIndex": "sendCount",
+      "align": "center",
+      "width": 200
+    },
+    "openCount": {
+      "title": "查看人数",
+      "dataIndex": "openCount",
+      "align": "center",
+      "width": 200
+    },
+    "createTime": {
+      "title": "下发时间",
+      "dataIndex": "createTime",
+      "align": "center"
+    }
+  }

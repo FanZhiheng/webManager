@@ -1,0 +1,37 @@
+{
+  "examName": {
+    "title": "考题题目",
+    "type": "text",
+    "key": "examName"
+  },
+  "optA": {
+    "title": "选项A",
+    "type": "text",
+    "key": "optA"
+  },
+  "optB": {
+    "title": "选项B",
+    "type": "text",
+    "key": "optB"
+  },
+  "optC": {
+    "title": "选项C",
+    "type": "text",
+    "key": "optC"
+  },
+  "optD": {
+    "title": "选项D",
+    "type": "text",
+    "key": "optD"
+  },
+  "optE": {
+    "title": "选项E",
+    "type": "text",
+    "key": "optE"
+  },
+  "answer": {
+    "title": "答案",
+    "type": "text",
+    "key": "answer"
+  }
+}

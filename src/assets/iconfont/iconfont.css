@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3331674 */
+  src: url('iconfont.woff2?t=1656469621843') format('woff2'),
+       url('iconfont.woff?t=1656469621843') format('woff'),
+       url('iconfont.ttf?t=1656469621843') format('truetype'),
+       url('iconfont.svg?t=1656469621843#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-exam-word:before {
+  content: "\e603";
+}
+
+.icon-exam-pdf:before {
+  content: "\e6a2";
+}
+
+.icon-exam-attribute:before {
+  content: "\e649";
+}
+
+.icon-exam-number:before {
+  content: "\e648";
+}
+
+.icon-exam-Scantron:before {
+  content: "\e6a3";
+}
+
+.icon-exam-text:before {
+  content: "\e63d";
+}
+
+.icon-exam-radio:before {
+  content: "\e63e";
+}
+
+.icon-exam-date:before {
+  content: "\e63f";
+}
+
+.icon-exam-linkage:before {
+  content: "\e640";
+}
+
+.icon-exam-img:before {
+  content: "\e641";
+}
+
+.icon-exam-select:before {
+  content: "\e642";
+}
+
+.icon-exam-textarea:before {
+  content: "\e643";
+}
+
+.icon-exam-checkbox:before {
+  content: "\e645";
+}
+
+.icon-exam-score:before {
+  content: "\e661";
+}
+
+.icon-exam-user:before {
+  content: "\e63c";
+}
+
+.icon-exam-exam:before {
+  content: "\e608";
+}
+
+.icon-exam-paper:before {
+  content: "\e65b";
+}
+
+.icon-exam-tel:before {
+  content: "\e637";
+}
+
+.icon-exam-questionbank:before {
+  content: "\e71d";
+}
+

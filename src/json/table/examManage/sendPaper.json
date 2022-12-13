@@ -1,0 +1,54 @@
+{
+  "action": {
+    "title": "操作",
+    "dataIndex": "action",
+    "align": "center",
+    "slots": {
+      "customRender": "action"
+    },
+    "width": 160
+  },
+  "examGroup": {
+    "title": "考试名称",
+    "dataIndex": "examGroup",
+    "align": "center",
+    "width": 100
+  },
+  "totalCount": {
+    "title": "发送人数",
+    "dataIndex": "totalCount",
+    "align": "center",
+    "width": 100
+  },
+  "passCount": {
+    "title": "通过人数",
+    "dataIndex": "passCount",
+    "align": "center",
+    "width": 100
+  },
+  "averageScore": {
+    "title": "平均分",
+    "dataIndex": "averageScore",
+    "align": "center",
+    "width": 100
+  },
+  "answerCount": {
+    "title": "答题人数",
+    "dataIndex": "answerCount",
+    "align": "center",
+    "width": 100
+  },
+  "isSubmitNumber": {
+    "title": "未提交人数",
+    "dataIndex": "isSubmitNumber",
+    "align": "center",
+    "width": 100
+  },
+  "createTime": {
+    "title": "下发时间",
+    "dataIndex": "createTime",
+    "align": "center",
+    "width": 100
+  }
+
+}

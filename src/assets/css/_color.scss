@@ -1,0 +1,32 @@
+$FONT_COLOR       : #FFF #EEE #333 #666 #999 #CCC #FF4D4D #2d8be0 #FAAD14 #000 #356EDD #848484;
+$BACKGROUND_COLOR : #fff #bccefc #000 #2d8be0 red #f4f8fa;
+$BORDER_COLOR     : #eee;
+
+@mixin COLOR($COLORS, $CLASSNAME, $CLASSKEY) {
+
+  @each $COLOR in $COLORS {
+    $COLOR_NAME: str-slice(quote(#{$COLOR}), 2);
+
+    .#{$CLASSNAME}_#{$COLOR_NAME} {
+      #{$CLASSKEY}: $COLOR;
+    }
+  }
+}
+
+@mixin BORDERCOLOR($COLORS) {
+  @each $COLOR in $COLORS {
+    $COLOR_NAME: str-slice(quote(#{$COLOR}), 2);
+
+    .border_b_#{$COLOR_NAME} {
+      border-bottom: 1px solid $COLOR;
+    }
+  }
+}
+
+@include COLOR($BACKGROUND_COLOR, bg, background-color);
+@include COLOR($FONT_COLOR, font, color);
+@include BORDERCOLOR($BORDER_COLOR);
+
+.font_FFF_7 {
+  color: rgba(255, 255, 255, .7);
+}

@@ -1,0 +1,171 @@
+@use "_font";
+@use "_color";
+@use "_layout";
+@use "_theme";
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: #666;
+}
+
+/* 全局高度继承 */
+html,
+body,
+#app,
+#app > div {
+  height: 100%;
+  font-family: PingFangSC-Regular;
+}
+
+html {
+  background-color: #fff;
+}
+
+p,
+body,
+ul,
+h1,
+h2,
+h3,
+input,
+button,
+select,
+textarea {
+  padding: 0;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+select {
+  -webkit-appearance: none;
+  background: #fff;
+  color: #999;
+  font-size: 0.56rem;
+}
+
+// a {
+//   text-decoration: none;
+//   color: #fff;
+//   height: 100%;
+// }
+
+ul {
+  list-style: none;
+}
+
+input,
+button,
+textarea,
+select {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+/* 清除浮动 */
+.container:before,
+.container:after {
+  content: "";
+  overflow: hidden;
+  clear: both;
+  display: table;
+}
+
+/*隐藏显示*/
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.view {
+  height: 100%;
+}
+
+.just-center {
+  justify-content: center;
+}
+
+.just-end {
+  justify-content: flex-end;
+}
+
+.just-start {
+  justify-content: flex-start;
+}
+
+.just-sa {
+  justify-content: space-around;
+}
+
+.just-sb {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.grow_1 {
+  flex-grow: 1;
+}
+
+.columns {
+  flex-direction: column;
+}
+
+.maxWidth {
+  width: 100%;
+}
+
+.maxHeight {
+  height: 100%;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+.margin_l_16{
+  margin-left: 16;
+}

@@ -1,0 +1,58 @@
+$MARGIN_SIZE: 8 16 24 32;
+$PADDING_SIZE: 8 10 16 20 24 32 40 100;
+
+$MARGIN_TOP_SIZE: 8 10 16 20 24 32;
+$MARGIN_BOTTOM_SIZE: 8 10 16 24 32;
+$MARGIN_LEFT_SIZE: 8 10 16 24 32 ;
+$MARGIN_RIGHT_SIZE: 8 10 16 24 32 74;
+
+$PADDING_TOP_SIZE: 12 16 24 32;
+$PADDING_BOTTOM_SIZE: 12 16 24 32;
+$PADDING_LEFT_SIZE: 12 16 24 32;
+$PADDING_RIGHT_SIZE: 12 16 24 32;
+
+$POSITION: fixed absolute relative;
+$FLOAT: left right;
+
+$JUSTIFYNICKNAME: start end center sb sa;
+$JUSTIFYVALUE: flex-start flex-end center space-between space-around;
+$ALIGNNICKNAME: start end center;
+$ALIGNVALUE: flex-start flex-end center;
+
+@mixin LAYOUT($SIZES, $CLASSNAME, $CLASSKEY) {
+  @each $SIZE in $SIZES {
+    .#{$CLASSNAME}_#{$SIZE} {
+      #{$CLASSKEY}: $SIZE + px;
+    }
+  }
+}
+
+@mixin LAYOUT_($VALUE, $CLASSKEY) {
+  @each $VAL in $VALUE {
+    .#{$VAL} {
+      #{$CLASSKEY}: $VAL;
+    }
+  }
+}
+
+@include LAYOUT($MARGIN_TOP_SIZE, margin_t, margin-top);
+@include LAYOUT($MARGIN_BOTTOM_SIZE, margin_b, margin-bottom);
+@include LAYOUT($MARGIN_LEFT_SIZE, margin_l, margin-left);
+@include LAYOUT($MARGIN_RIGHT_SIZE, margin_r, margin-right);
+@include LAYOUT($MARGIN_SIZE, margin, margin);
+
+@include LAYOUT($PADDING_TOP_SIZE, padding_t, padding-top);
+@include LAYOUT($PADDING_BOTTOM_SIZE, padding_b, padding-bottom);
+@include LAYOUT($PADDING_LEFT_SIZE, padding_l, padding-left);
+@include LAYOUT($PADDING_RIGHT_SIZE, padding_r, padding-right);
+@include LAYOUT($PADDING_SIZE, padding, padding);
+
+@include LAYOUT_($POSITION, position);
+@include LAYOUT_($FLOAT, float);
+
+.dailyflex {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}

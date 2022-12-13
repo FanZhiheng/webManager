@@ -1,0 +1,11 @@
+{
+  "contactFileId": {
+    "name": "contactFileId",
+    "type": "file",
+    "placeholder": "请上传文件",
+    "label": "导入文件",
+    "errMsg": "请上传文件",
+    "accept": ".xls,.xlsx",
+    "require": true
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "questionName": {
+    "title": "考题题目",
+    "type": "text",
+    "key": "questionName"
+  },
+  "optA": {
+    "title": "选项A",
+    "type": "text",
+    "key": "optA"
+  },
+  "optB": {
+    "title": "选项B",
+    "type": "text",
+    "key": "optB"
+  },
+  "optC": {
+    "title": "选项C",
+    "type": "text",
+    "key": "optC"
+  },
+  "optD": {
+    "title": "选项D",
+    "type": "text",
+    "key": "optD"
+  },
+  "optE": {
+    "title": "选项E",
+    "type": "text",
+    "key": "optE"
+  },
+  "optF": {
+    "title": "选项F",
+    "type": "text",
+    "key": "optF"
+  },
+  "answer3": {
+    "title": "答案",
+    "type": "text",
+    "key": "answer3"
+  },
+  "answer1": {
+    "title": "答案",
+    "type": "text",
+    "key": "answer1"
+  },
+  "answer2": {
+    "title": "答案",
+    "type": "text",
+    "key": "answer2"
+  },
+  "optY": {
+    "title": "选项A",
+    "type": "text",
+    "key": "optY"
+  },
+  "optZ": {
+    "title": "选项B",
+    "type": "text",
+    "key": "optZ"
+  }
+}

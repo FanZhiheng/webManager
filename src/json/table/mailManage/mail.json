@@ -1,0 +1,35 @@
+{
+  "index": {
+    "title": "序号",
+    "dataIndex": "index",
+    "width": 60,
+    "align": "center",
+    "slots": {
+      "customRender": "index"
+    }
+  },
+  "action": {
+    "title": "操作",
+    "dataIndex": "action",
+    "align": "center",
+    "slots": {
+      "customRender": "action"
+    },
+    "width": 160
+  },
+  "mobile": {
+    "title": "手机号",
+    "dataIndex": "mobile",
+    "align": "center",
+    "slots": {
+      "customRender": "mobile"
+    },
+    "width": 120
+  },
+  "userName": {
+    "title": "姓名",
+    "dataIndex": "userName",
+    "align": "center",
+    "width": 100
+  }
+}

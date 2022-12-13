@@ -1,0 +1,142 @@
+{
+  "questionName": {
+    "name": "questionName",
+    "type": "textarea",
+    "placeholder": "请输入考题名称",
+    "label": "考题名称",
+    "errMsg": "请输入考题名称"
+  },
+  "optA": {
+    "name": "optA",
+    "type": "text",
+    "placeholder": "请输入选项A",
+    "label": "选项A",
+    "errMsg": "请输入选项A"
+  },
+  "optB": {
+    "name": "optB",
+    "type": "text",
+    "placeholder": "请输入选项B",
+    "label": "选项B",
+    "errMsg": "请输入选项B"
+  },
+  "optC": {
+    "name": "optC",
+    "type": "text",
+    "placeholder": "请输入选项C",
+    "label": "选项C",
+    "errMsg": "请输入选项C"
+  },
+  "optD": {
+    "name": "optD",
+    "type": "text",
+    "placeholder": "请输入选项D",
+    "label": "选项D",
+    "errMsg": "请输入选项D"
+  },
+  "optE": {
+    "name": "optE",
+    "type": "text",
+    "placeholder": "请输入选项E",
+    "label": "选项E",
+    "errMsg": "请输入选项E"
+  },
+  "optF": {
+    "name": "optF",
+    "type": "text",
+    "placeholder": "请输入选项F",
+    "label": "选项F",
+    "errMsg": "请输入选项F"
+  },
+  "optY": {
+    "name": "optY",
+    "type": "readonly",
+    "placeholder": "请输入选项A",
+    "label": "选项A",
+    "errMsg": "请输入选项A"
+  },
+  "optZ": {
+    "name": "optZ",
+    "type": "readonly",
+    "placeholder": "请输入选项B",
+    "label": "选项B",
+    "errMsg": "请输入选项B"
+  },
+
+  "answer1": {
+    "name": "answer1",
+    "type": "radio",
+    "label": "答案",
+    "subList": [
+      {
+        "value": "选项A",
+        "key": "A"
+      },
+      {
+        "value": "选项B",
+        "key": "B"
+      },
+      {
+        "value": "选项C",
+        "key": "C"
+      },
+      {
+        "value": "选项D",
+        "key": "D"
+      },
+      {
+        "value": "选项E",
+        "key": "E"
+      },
+      {
+        "value": "选项F",
+        "key": "F"
+      }
+    ],
+    "errMsg": "请输入答案"
+  },
+  "answer2": {
+    "name": "answer2",
+    "type": "checkbox",
+    "label": "答案",
+    "subList": [
+      {
+        "value": "选项A",
+        "key": "A"
+      },
+      {
+        "value": "选项B",
+        "key": "B"
+      },
+      {
+        "value": "选项C",
+        "key": "C"
+      },
+      {
+        "value": "选项D",
+        "key": "D"
+      },
+      {
+        "value": "选项E",
+        "key": "E"
+      }
+    ],
+    "errMsg": "请输入答案"
+  },
+  "answer3": {
+    "name": "answer3",
+    "type": "radio",
+    "label": "答案",
+    "subList": [
+      {
+        "value": "选项A",
+        "key": "Y"
+      },
+      {
+        "value": "选项B",
+        "key": "Z"
+      }
+    ],
+    "errMsg": "请输入答案"
+  }
+}

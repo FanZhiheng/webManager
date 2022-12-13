@@ -1,0 +1,23 @@
+{
+  "action": {
+    "title": "操作",
+    "dataIndex": "action",
+    "align": "center",
+    "slots": {
+      "customRender": "action"
+    },
+    "width": 160
+  },
+  "name": {
+    "title": "分组名称",
+    "dataIndex": "name",
+    "align": "center",
+    "width": 100
+  },
+  "contactCount": {
+    "title": "分组人数",
+    "dataIndex": "contactCount",
+    "align": "center",
+    "width": 100
+  }
+}

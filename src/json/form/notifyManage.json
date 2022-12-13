@@ -1,0 +1,113 @@
+{
+  "msgText": {
+    "name": "msgText",
+    "type": "text",
+    "placeholder": "请输入文本消息",
+    "label": "文本消息",
+    "errMsg": "请输入文本消息",
+    "require": true,
+    "disabled": true
+  },
+  "fileSource": {
+    "name": "fileSource",
+    "type": "radio",
+    "label": "上传文件",
+    "subList": [
+      {
+        "value": "历史文件",
+        "key": "0"
+      },
+      {
+        "value": "新增文件",
+        "key": "1"
+      }
+    ]
+  },
+  "fileId": {
+    "name": "fileId",
+    "type": "file",
+    "placeholder": "请上传文件",
+    "errMsg": "请上传文件",
+    "limit": 1
+  },
+  "historyFile": {
+    "name": "fileId",
+    "type": "historyFile"
+  },
+  "appointTime": {
+    "name": "appointTime",
+    "type": "radio",
+    "placeholder": "请选择发送类型",
+    "label": "发送类型",
+    "errMsg": "请选择发送类型",
+    "subList": [
+      {
+        "value": "定时发送",
+        "key": "0"
+      },
+      {
+        "value": "立即发送",
+        "key": "1"
+      }
+    ],
+    "require": true
+  },
+  "sendTime": {
+    "name": "sendTime",
+    "type": "select",
+    "placeholder": "请选择下发时间",
+    "label": "下发时间",
+    "errMsg": "请选择下发时间",
+    "subList": [
+      {
+        "value": "今天上午9点",
+        "key": "0"
+      },
+      {
+        "value": "今天下午6点",
+        "key": "1"
+      },
+      {
+        "value": "明天上午9点",
+        "key": "2"
+      },
+      {
+        "value": "明天下午6点",
+        "key": "3"
+      }
+    ]
+  },
+  "type": {
+    "name": "type",
+    "type": "radio",
+    "placeholder": "请选择发送对象",
+    "label": "发送对象",
+    "errMsg": "请选择发送对象",
+    "subList": [
+      {
+        "value": "号码发送",
+        "key": "0"
+      },
+      {
+        "value": "通讯录发送",
+        "key": "1"
+      }
+    ],
+    "require": true
+  },
+  "mobiles": {
+    "name": "mobiles",
+    "type": "text",
+    "placeholder": "请输入发送号码，多个以“ , ”分割",
+    "label": "发送号码",
+    "errMsg": "请输入发送号码",
+    "tips": "以“ , ”分割，不超过20个号码"
+  },
+  "fileDate": {
+    "name": "fileDate",
+    "type": "date",
+    "placeholder": "请选择日报时间",
+    "label": "日报时间",
+    "errMsg": "请选择日报时间"
+  }
+}

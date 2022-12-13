@@ -1,0 +1,50 @@
+{
+  "action": {
+    "title": "操作",
+    "dataIndex": "action",
+    "align": "center",
+    "slots": {
+      "customRender": "action"
+    },
+    "width": 300
+  },
+  "name": {
+    "title": "考试名称",
+    "dataIndex": "name",
+    "align": "center"
+  },
+  "examGroupName": {
+    "title": "题库名称",
+    "dataIndex": "examGroupName",
+    "align": "center",
+    "limit": 50
+
+  },
+  "exam1": {
+    "title": "单选题个数",
+    "dataIndex": "exam1",
+    "align": "center",
+    "width": 100
+  },
+  "exam2": {
+    "title": "多选题个数",
+    "dataIndex": "exam2",
+    "align": "center",
+    "width": 100
+  },
+  "exam3": {
+    "title": "判断题个数",
+    "dataIndex": "exam3",
+    "align": "center",
+    "width": 100
+  },
+  "createTime": {
+    "title": "创建时间",
+    "dataIndex": "createTime",
+    "align": "center",
+    "width": 150,
+    "slots": {
+      "customRender": "createTime"
+    }
+  }
+}

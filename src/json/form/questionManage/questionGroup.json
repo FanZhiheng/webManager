@@ -1,0 +1,10 @@
+{
+  "name": {
+    "name": "name",
+    "type": "text",
+    "placeholder": "请输入题库名称",
+    "label": "题库名称",
+    "errMsg": "请输入题库名称",
+    "limit": 50
+  }
+}

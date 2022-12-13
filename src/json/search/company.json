@@ -1,0 +1,16 @@
+{
+  "userName": {
+    "name": "userName",
+    "type": "text",
+    "placeholder": "请输入姓名",
+    "label": "姓名",
+    "errMsg": "请输入姓名"
+  },
+  "workNumber": {
+    "name": "workNumber",
+    "type": "text",
+    "placeholder": "请输入工号",
+    "label": "工号",
+    "errMsg": "请输入工号"
+  }
+}

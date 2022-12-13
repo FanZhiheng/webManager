@@ -1,0 +1,37 @@
+{
+  "name": {
+    "name": "name",
+    "type": "text",
+    "placeholder": "请输入考试名称",
+    "label": "考试名称",
+    "errMsg": "请输入考试名称"
+  },
+  "name1": {
+    "name": "name1",
+    "type": "text",
+    "placeholder": "请输入姓名",
+    "label": "姓名",
+    "errMsg": "请输入姓名"
+  },
+  "phone": {
+    "name": "phone",
+    "type": "text",
+    "placeholder": "请输入手机号",
+    "label": "手机号",
+    "errMsg": "请输入手机号"
+  },
+  "company": {
+    "name": "company",
+    "type": "text",
+    "placeholder": "请输入公司网格",
+    "label": "公司网格",
+    "errMsg": "请输入公司网格"
+  },
+  "examGroupId":{
+    "name": "examGroupId",
+    "type": "selectCustom",
+    "placeholder": "请选择关联题库",
+    "label": "关联题库",
+    "errMsg": "请选择关联题库"
+  }
+}

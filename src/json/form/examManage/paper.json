@@ -1,0 +1,177 @@
+{
+  "singleValue": {
+    "name": "singleValue",
+    "type": "number",
+    "placeholder": "请输入单选题分值",
+    "label": "单选题分值",
+    "errMsg": "请输入单选题分值"
+  },
+  "singleCount": {
+    "name": "singleCount",
+    "type": "number",
+    "placeholder": "请输入单选题个数",
+    "label": "单选题个数",
+    "errMsg": "请输入单选题个数"
+  },
+  "multipleValue": {
+    "name": "multipleValue",
+    "type": "number",
+    "placeholder": "请输入多选题分值",
+    "label": "多选题分值",
+    "errMsg": "请输入多选题分值"
+  },
+  "multipleCount": {
+    "name": "multipleCount",
+    "type": "number",
+    "placeholder": "请输入多选题个数",
+    "label": "多选题个数",
+    "errMsg": "请输入多选题个数"
+  },
+  "judgmentValue": {
+    "name": "judgmentValue",
+    "type": "number",
+    "placeholder": "请输入判断题分值",
+    "label": "判断题分值",
+    "errMsg": "请输入判断题分值"
+  },
+  "cardId": {
+    "name": "cardId",
+    "type": "text",
+    "placeholder": "请输入卡片ID",
+    "label": "卡片Id",
+    "errMsg": "请输入卡片ID",
+    "limit": 5
+  },
+  "chatbotId": {
+    "name": "chatbotId",
+    "type": "text",
+    "placeholder": "请输入chatbotId",
+    "label": "chatbotId",
+    "errMsg": "请输入chatbotId",
+    "limit": 5
+  },
+  "judgmentCount": {
+    "name": "judgmentCount",
+    "type": "number",
+    "placeholder": "请输入判断题个数",
+    "label": "判断题个数",
+    "errMsg": "请输入判断题个数"
+  },
+  "passLine": {
+    "name": "passLine",
+    "type": "number",
+    "placeholder": "请输入及格分数",
+    "label": "及格分数",
+    "errMsg": "请输入及格分数"
+  },
+  "duration": {
+    "name": "duration",
+    "type": "number",
+    "placeholder": "请输入考试时长",
+    "label": "考试时长（分钟）",
+    "errMsg": "请输入考试时长"
+  },
+  "startTime": {
+    "name": "startTime",
+    "type": "date",
+    "placeholder": "请选择开始时间",
+    "label": "开始时间",
+    "errMsg": "请选择开始时间"
+  },
+  "endTime": {
+    "name": "endTime",
+    "type": "date",
+    "placeholder": "请选择结束时间",
+    "label": "结束时间",
+    "errMsg": "请选择结束时间"
+  },
+  "retestCount": {
+    "name": "retestCount",
+    "type": "number",
+    "placeholder": "请输入重考次数",
+    "label": "重考次数",
+    "errMsg": "请输入重考次数"
+  },
+  "isRandom": {
+    "name": "isRandom",
+    "type": "radio",
+    "label": "是否随机生成试卷",
+    "errMsg": "请输入考试时间",
+    "subList": [
+      {
+        "value": "是",
+        "key": "1"
+      },
+      {
+        "value": "否",
+        "key": "0"
+      }
+    ]
+  },
+  "displayType": {
+    "name": "displayType",
+    "type": "radioCustom",
+    "label": "展示样式",
+    "subList": [
+      {
+        "img": "horizontal",
+        "value": "横版",
+        "key": "1"
+      },
+      {
+        "img": "vertical",
+        "value": "竖版",
+        "key": "0"
+      }
+    ]
+  },
+  "showLogin": {
+    "name": "showLogin",
+    "type": "radioCustom",
+    "label": "是否展示登录页",
+    "subList": [
+      {
+        "img": "showLogin",
+        "value": "显示",
+        "key": "1"
+      },
+      {
+        "img": "noLogin",
+        "value": "不显示",
+        "key": "0"
+      }
+    ]
+  },
+  "showResult": {
+    "name": "showResult",
+    "type": "radioCustom",
+    "label": "结果页展示",
+    "subList": [
+      {
+        "img": "showScore",
+        "value": "显示分数",
+        "key": "1"
+      },
+      {
+        "img": "showCorrectWrong",
+        "value": "显示对错题",
+        "key": "0"
+      }
+    ]
+  },
+  "isAuth": {
+    "name": "isAuth",
+    "type": "radio",
+    "label": "是否鉴权",
+    "subList": [
+      {
+        "value": "鉴权",
+        "key": "1"
+      },
+      {
+        "value": "非鉴权",
+        "key": "0"
+      }
+    ]
+  }
+}

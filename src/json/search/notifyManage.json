@@ -1,0 +1,38 @@
+{
+  "fileDate": {
+    "name": "fileDate",
+    "type": "date",
+    "placeholder": "请选择日期",
+    "label": "日期",
+    "errMsg": "请选择日期"
+  },
+  "sendStatus": {
+    "name": "sendStatus",
+    "type": "select",
+    "placeholder": "请选择状态",
+    "label": "状态",
+    "subList": [
+      {
+        "value": "待发送",
+        "key": "0"
+      },
+      {
+        "value": "发送中",
+        "key": "1"
+      },
+      {
+        "value": "已发送",
+        "key": "2"
+      },
+      {
+        "value": "发送失败",
+        "key": "3"
+      },
+      {
+        "value": "取消发送",
+        "key": "4"
+      }
+    ],
+    "errMsg": "请选择状态"
+  }
+}

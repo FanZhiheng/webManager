@@ -1,0 +1,40 @@
+{
+  "action": {
+    "title": "操作",
+    "dataIndex": "action",
+    "align": "center",
+    "slots": {
+      "customRender": "action"
+    },
+    "width": 300
+  },
+  "questionName": {
+    "title": "题目名称",
+    "dataIndex": "questionName",
+    "align": "center"
+  },
+  "question1": {
+    "title": "单选题个数",
+    "dataIndex": "question1",
+    "align": "center",
+    "width": 100
+  },
+  "question2": {
+    "title": "多选题个数",
+    "dataIndex": "question2",
+    "align": "center",
+    "width": 100
+  },
+  "question3": {
+    "title": "判断题个数",
+    "dataIndex": "question3",
+    "align": "center",
+    "width": 100
+  },
+  "createTime": {
+    "title": "创建时间",
+    "dataIndex": "createTime",
+    "align": "center",
+    "width": 100
+  }
+}

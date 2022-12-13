@@ -1,0 +1,73 @@
+$FONT_SIZE :10 14 16 18 20 22 24 64;
+$FONT_ALIGN:left center right justify;
+$FONT_STYLE:underline;
+
+@each $FONT in $FONT_SIZE {
+  .font_#{$FONT} {
+    font-size: $FONT + px;
+  }
+}
+
+@each $ALIGN in $FONT_ALIGN {
+  $LEN       : str-length($ALIGN);
+  $CLASS_NAME: to-upper-case(str-slice($ALIGN, 1, 1)) + to-lower-case(str-slice($ALIGN, 2, $LEN));
+
+  .text#{$CLASS_NAME} {
+    text-align: $ALIGN;
+  }
+}
+
+.fontDel {
+  text-decoration: line-through;
+}
+
+.fontUnderline {
+  text-decoration: underline;
+}
+
+.fontItalic {
+  font-style: italic;
+}
+
+.fontNormal {
+  font-style: normal;
+}
+
+.fontBold {
+  font-weight: 600;
+}
+
+.textNowrap {
+  white-space: nowrap;
+}
+
+.textWrap {
+  word-wrap: break-word;
+}
+
+.textBreak {
+  word-break: break-all;
+}
+
+.textEllipsis {
+  overflow     : hidden;
+  text-overflow: ellipsis;
+  white-space  : nowrap;
+  word-wrap    : break-word;
+  word-break   : break-all;
+}
+
+.textEllipsis2 {
+  display           : -webkit-box;
+  overflow          : hidden;
+  text-overflow     : ellipsis;
+  word-wrap         : break-word;
+  white-space       : normal;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* 针对数字 */
+.numFontSize {
+  font-family: Helvetica;
+}

@@ -1,0 +1,45 @@
+[
+  {
+    "title": "题库管理",
+    "name": "questionManage",
+    "routerName": "questionManage",
+    "icon": "icon-exam-questionbank",
+    "children": [
+      {
+        "title": "分组管理",
+        "name": "questionGroup",
+        "routerName": "questionGroup",
+        "icon": "msg-home-checked",
+        "routerPath": "/questionManage/questionGroup"
+      }
+    ]
+  },
+  {
+    "title": "通讯录管理",
+    "name": "mailManage",
+    "routerName": "mailManage",
+    "icon": "icon-exam-tel",
+    "children": [
+      {
+        "title": "通讯录分组",
+        "name": "mailGroup",
+        "routerName": "mailGroup",
+        "icon": "msg-home-checked",
+        "routerPath": "/mailManage/mailGroup"
+      }
+    ]
+  },
+  {
+    "title": "考试",
+    "name": "examManage",
+    "icon": "icon-exam-exam",
+    "children": [
+      {
+        "title": "考试管理",
+        "name": "exam",
+        "routerName": "exam",
+        "routerPath": "/examManage"
+      }
+    ]
+  }
+]

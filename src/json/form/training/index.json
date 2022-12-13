@@ -1,0 +1,32 @@
+{
+  "name": {
+    "name": "name",
+    "type": "text",
+    "placeholder": "请输入培训名称",
+    "label": "培训名称",
+    "errMsg": "请输入培训名称",
+    "limit": 20
+  },
+  "title": {
+    "name": "title",
+    "type": "text",
+    "placeholder": "请输入标题",
+    "label": "标题",
+    "errMsg": "请输入标题",
+    "limit": 20
+  },
+  "content": {
+    "name": "content",
+    "type": "textarea",
+    "placeholder": "",
+    "label": "内容",
+    "errMsg": "请输入内容"
+  },
+  "file": {
+    "name": "file",
+    "type": "file",
+    "placeholder": "",
+    "label": "资料上传",
+    "errMsg": "请上传资料"
+  }
+}

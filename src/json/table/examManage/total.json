@@ -1,0 +1,38 @@
+{
+  "name": {
+    "title": "姓名",
+    "dataIndex": "name",
+    "align": "center",
+    "width": 100
+  },
+  "mobile": {
+    "title": "手机号",
+    "dataIndex": "mobile",
+    "align": "center",
+    "width": 100
+  },
+  "company": {
+    "title": "所属网格",
+    "dataIndex": "company",
+    "align": "center",
+    "width": 100
+  },
+  "isView": {
+    "title": "是否查看",
+    "dataIndex": "isView",
+    "align": "center",
+    "width": 100
+  },
+  "createTime": {
+    "title": "提交时间",
+    "dataIndex": "createTime",
+    "align": "center",
+    "width": 100
+  },
+  "store": {
+    "title": "分数",
+    "dataIndex": "store",
+    "align": "center",
+    "width": 100
+  }
+}

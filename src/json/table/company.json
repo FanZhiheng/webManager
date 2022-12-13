@@ -1,0 +1,44 @@
+{
+  "index": {
+    "title": "序号",
+    "dataIndex": "index",
+    "width": 60,
+    "align": "center",
+    "slots": {
+      "customRender": "index"
+    }
+  },
+  "action": {
+    "title": "操作",
+    "dataIndex": "action",
+    "align": "center",
+    "slots": {
+      "customRender": "action"
+    },
+    "width": 160
+  },
+  "workNumber": {
+    "title": "工号",
+    "dataIndex": "workNumber",
+    "align": "center",
+    "width": 120
+  },
+  "userName": {
+    "title": "姓名",
+    "dataIndex": "userName",
+    "align": "center",
+    "width": 100
+  },
+  "orgName": {
+    "title": "部门",
+    "dataIndex": "orgName",
+    "align": "center",
+    "width": 100
+  },
+  "position": {
+    "title": "职位",
+    "dataIndex": "position",
+    "align": "center",
+    "width": 100
+  }
+}

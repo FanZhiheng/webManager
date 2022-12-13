@@ -1,0 +1,44 @@
+{
+  "action": {
+    "title": "操作",
+    "dataIndex": "action",
+    "align": "center",
+    "slots": {
+      "customRender": "action"
+    },
+    "width": 160
+  },
+  "name": {
+    "title": "题库名称",
+    "dataIndex": "name",
+    "align": "center",
+    "width": 100
+  },
+  "singleCount": {
+    "title": "单选题个数",
+    "dataIndex": "singleCount",
+    "align": "center",
+    "width": 100
+  },
+  "multipleCount": {
+    "title": "多选题个数",
+    "dataIndex": "multipleCount",
+    "align": "center",
+    "width": 100
+  },
+  "judgmentCount": {
+    "title": "判断题个数",
+    "dataIndex": "judgmentCount",
+    "align": "center",
+    "width": 100
+  },
+  "createTime": {
+    "title": "创建时间",
+    "dataIndex": "createTime",
+    "align": "center",
+    "width": 100,
+    "slots": {
+      "customRender": "createTime"
+    }
+  }
+}

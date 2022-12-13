@@ -1,0 +1,16 @@
+{
+  "userName": {
+    "name": "userName",
+    "type": "text",
+    "placeholder": "请输入姓名",
+    "label": "姓名",
+    "errMsg": "请输入姓名"
+  },
+  "mobile": {
+    "name": "mobile",
+    "type": "text",
+    "placeholder": "请输入手机号",
+    "label": "手机号",
+    "errMsg": "请输入手机号"
+  }
+}

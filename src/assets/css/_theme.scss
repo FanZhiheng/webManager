@@ -1,0 +1,65 @@
+@mixin MIXIN-THEME($color1) {
+  .themeColor {
+    color: $color1;
+  }
+
+  .themeBg {
+    background: $color1;
+  }
+}
+
+@mixin MIXIN-ANT($color1, $subMenuColor) {
+  // .ant-layout-sider-children {
+  //   background: $color1;
+  // }
+  .ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-inline.ant-menu-sub, .ant-layout-sider-children {
+    background: $color1;
+  }
+  
+  .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background: $subMenuColor;
+  }
+
+  .logo {
+    background: $color1;
+  }
+
+  .ant-layout-header {
+    height: 64px;
+    padding: 0;
+    font-size: 18px;
+    background: $color1;
+    color: #333;
+  }
+
+  .ant-layout {
+    background: $color1;
+  }
+
+  .ant-input[disabled] {
+    background: #fff;
+    cursor: pointer;
+  }
+
+  .ant-btn-primary {
+    /* background: $color1;
+    border-color: #fff; */
+  }
+  .avatar {
+    background: $color1;
+  }
+}
+
+.theme {
+  &-blue {
+    @include MIXIN-THEME(#2d8be0);
+    @include MIXIN-ANT(#2d8be0, #2268a8);
+  }
+}
+
+.theme {
+  &-dark {
+    @include MIXIN-THEME(#1A5182);
+    @include MIXIN-ANT(#1A5182, #4E7Da7);
+  }
+}

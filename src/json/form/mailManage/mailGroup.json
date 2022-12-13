@@ -1,0 +1,10 @@
+{
+  "name": {
+    "name": "name",
+    "type": "text",
+    "placeholder": "请输入通讯录分组名称",
+    "label": "通讯录分组名称",
+    "errMsg": "请输入通讯录分组名称",
+    "limit": 10
+  }
+}

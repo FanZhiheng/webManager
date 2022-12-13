@@ -1,0 +1,26 @@
+{
+  "phone": {
+    "name": "phone",
+    "type": "text",
+    "placeholder": "请输入手机号码",
+    "label": "手机号码",
+    "errMsg": "请选择手机号码"
+  },
+  "status": {
+    "name": "status",
+    "type": "select",
+    "placeholder": "请选择下发状态",
+    "label": "下发状态",
+    "subList": [
+      {
+        "value": "成功",
+        "key": "1"
+      },
+      {
+        "value": "失败",
+        "key": "0"
+      }
+    ],
+    "errMsg": "请选择下发状态"
+  }
+}
